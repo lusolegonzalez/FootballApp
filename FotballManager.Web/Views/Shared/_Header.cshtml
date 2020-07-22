@@ -1,0 +1,14 @@
+﻿<header class="main-header">
+    <!-- Logo -->
+    <a asp-controller="Home" asp-action="Index" class="logo">
+        <span class="logo-mini">
+            <img src="~/img/Logo.png" class="logo-mini-img">
+        </span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg">
+            <img src="~/img/Logo.png" class="logo-mini-img">
+        </span>
+    </a>
+
+    @await Html.PartialAsync("_MenuBar")
+</header>

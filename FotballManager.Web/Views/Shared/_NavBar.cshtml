@@ -1,0 +1,64 @@
+﻿
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- search form -->
+        @*<form asp-area="Search" asp-action="Index" method="post" asp-controller="Search" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="textSearch" class="form-control" placeholder="@SharedLocalizer["Search"]">
+                <span class="input-group-btn">
+                    <button name="search" type="submit" id="search-btn" class="btn btn-flat">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </form>*@
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">
+                <a asp-controller="Tournament">
+                    <i class="fa fa-soccer-ball-o"></i> Torneos
+                </a>
+            </li>
+            <li class="header">
+                <a asp-controller="Team">
+                    <i class="fa fa-group"></i> Equipos
+                </a>
+            </li>
+            <li class="header">
+                <a asp-controller="Player">
+                    <i class="fa fa-user"></i> Jugadores
+                </a>
+            </li>
+            <li class="header">
+                <a>
+                    <i class="fa fa-user"></i> Estadisticas
+                </a>
+            </li>
+
+            @*
+        <li class="treeview @(Html.IsMenuActive("/Files/Files") ? "active" : "")">
+            <a href="#">
+                <i class="fa fa-folder-open"></i> <span>@SharedLocalizer["Files"]</span>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li class="@(Html.IsUrl("/Files/Files") ? "active" : "")">
+                    <a asp-area="Files" asp-controller="Files" asp-action="Index">
+                        <i class="fa fa-search"></i> @SharedLocalizer["Search"]
+                    </a>
+                </li>
+                <li class="@(Html.IsMenuActive("/Files/Files/Create") ? "active" : "")">
+                    <a asp-area="Files" asp-controller="Files" asp-action="Create">
+                        <i class="fa fa-plus-circle"></i> @SharedLocalizer["Add"]
+                    </a>
+                </li>
+            </ul>
+        </li>*@
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>

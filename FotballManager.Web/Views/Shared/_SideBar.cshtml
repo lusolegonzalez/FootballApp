@@ -1,0 +1,97 @@
+﻿<aside class="control-sidebar control-sidebar-dark">
+    <!-- Create the tabs -->
+    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+        <li class="active"><a href="#control-sidebar-theme-options-tab" data-toggle="tab"><i class="fa fa-wrench"></i></a></li>
+        <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+        <li><a href="#control-sidebar-qr-codes-tab" data-toggle="tab"><i class="fa fa-qrcode"></i></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <!-- Home tab content -->
+        <div id="control-sidebar-theme-options-tab" class="tab-pane active">
+            @*<div>
+                <h4 class="control-sidebar-heading">@Localizer["Skins"]</h4>
+                <ul class="list-unstyled clearfix">
+                    <li style="float: left; width: 33.33333%; padding: 5px;">
+                        <a href="javascript:void(0)" data-skin="skin-blue" style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)" class="clearfix full-opacity-hover">
+                            <div><span style="display: block; width: 20%; float: left; height: 7px; background: #367fa9"></span><span class="bg-light-blue" style="display: block; width: 80%; float: left; height: 7px;"></span></div>
+                            <div><span style="display: block; width: 20%; float: left; height: 20px; background: #222d32"></span><span style="display: block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span></div>
+                        </a>
+                        <p class="text-center no-margin">Default</p>
+                    </li>
+                    <li style="float: left; width: 33.33333%; padding: 5px;">
+                        <a href="javascript:void(0)" data-skin="skin-black" style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)" class="clearfix full-opacity-hover">
+                            <div><span style="display: block; width: 20%; float: left; height: 7px; background: #1a2245"></span><span style="display: block; width: 80%; float: left; height: 7px; background: #202b56"></span></div>
+                            <div><span style="display: block; width: 20%; float: left; height: 20px; background: #222d32"></span><span style="display: block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span></div>
+                        </a>
+                        <p class="text-center no-margin">Dark</p>
+                    </li>
+                    <li style="float: left; width: 33.33333%; padding: 5px;">
+                        <a href="javascript:void(0)" data-skin="skin-grey" style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)" class="clearfix full-opacity-hover">
+                            <div><span style="display: block; width: 20%; float: left; height: 7px; background: #627676"></span><span style="display: block; width: 80%; float: left; height: 7px; background: #7a9494"></span></div>
+                            <div><span style="display: block; width: 20%; float: left; height: 20px; background: #222d32"></span><span style="display: block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span></div>
+                        </a>
+                        <p class="text-center no-margin">Grey</p>
+                    </li>
+                    <li style="float: left; width: 33.33333%; padding: 5px;">
+                        <a href="javascript:void(0)" data-skin="skin-blue-light" style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)" class="clearfix full-opacity-hover">
+                            <div><span style="display: block; width: 20%; float: left; height: 7px; background: #367fa9"></span><span class="bg-light-blue" style="display: block; width: 80%; float: left; height: 7px;"></span></div>
+                            <div><span style="display: block; width: 20%; float: left; height: 20px; background: #f9fafc"></span><span style="display: block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span></div>
+                        </a>
+                        <p class="text-center no-margin" style="font-size: 12px">Default Light</p>
+                    </li>
+                    <li style="float: left; width: 33.33333%; padding: 5px;">
+                        <a href="javascript:void(0)" data-skin="skin-black-light" style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)" class="clearfix full-opacity-hover">
+                            <div><span style="display: block; width: 20%; float: left; height: 7px; background: #1a2245"></span><span style="display: block; width: 80%; float: left; height: 7px; background: #202b56"></span></div>
+                            <div><span style="display: block; width: 20%; float: left; height: 20px; background: #f9fafc"></span><span style="display: block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span></div>
+                        </a>
+                        <p class="text-center no-margin" style="font-size: 12px">Dark Light</p>
+                    </li>
+                    <li style="float: left; width: 33.33333%; padding: 5px;">
+                        <a href="javascript:void(0)" data-skin="skin-grey-light" style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)" class="clearfix full-opacity-hover">
+                            <div><span style="display: block; width: 20%; float: left; height: 7px; background: #627676"></span><span style="display: block; width: 80%; float: left; height: 7px; background: #7a9494"></span></div>
+                            <div><span style="display: block; width: 20%; float: left; height: 20px; background: #f9fafc"></span><span style="display: block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span></div>
+                        </a>
+                        <p class="text-center no-margin" style="font-size: 12px">Grey Light</p>
+                    </li>
+                </ul>
+            </div>*@
+        </div>
+
+        <!-- Settings tab content -->
+        <div class="tab-pane" id="control-sidebar-settings-tab">
+            @*@await Html.PartialAsync("_SelectLanguagePartial")*@
+        </div>
+        <!-- /.tab-pane -->
+        <!-- Stats tab content -->
+        <div class="tab-pane" id="control-sidebar-qr-codes-tab">
+            @*<p>@SharedLocalizer["Scan this code to access the app in a mobile device"]</p>
+
+            <environment names="Production">
+                <img src="~/img/qr_inspections_ES.png" style="width: 100%;" alt="" />
+            </environment>
+            <environment names="ProdMX">
+                <img src="~/img/qr_inspections_MX.png" style="width: 100%;" alt="" />
+            </environment>
+            <environment names="ProdAR">
+                <img src="~/img/qr_inspections_AR.png" style="width: 100%;" alt="" />
+            </environment>
+            <environment names="TestES">
+                <img src="~/img/qr_inspections_ES_test.png" style="width: 100%;" alt="" />
+            </environment>
+            <environment names="TestMX">
+                <img src="~/img/qr_inspections_MX_test.png" style="width: 100%;" alt="" />
+            </environment>
+            <environment names="TestAR, Development">
+                <img src="~/img/qr_inspections_AR_test.png" style="width: 100%;" alt="" />
+            </environment>*@
+
+        </div>
+        <!-- /.tab-pane -->
+
+    </div>
+</aside>
+<!-- /.control-sidebar -->
+<!-- Add the sidebar's background. This div must be placed
+immediately after the control sidebar -->
+<div class="control-sidebar-bg"></div>
