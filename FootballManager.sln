@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManager.Web", "FotballManager.Web\FootballManager.Web.csproj", "{563F451F-950C-48DB-A6DC-72BDEC8E6C41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Web", "..\FootballApp\FootballApp\Football.Web\Football.Web.csproj", "{C53CDFFF-D838-45DA-A1E3-50BA57F4A13E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Services", "..\FootballApp\FootballApp\Football.Services\Football.Services.csproj", "{025BBFFE-1EEC-46BD-AF3D-730B3FF158AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Model", "..\FootballApp\FootballApp\Football.Model\Football.Model.csproj", "{A4B79A1F-DA0F-43A2-AAD1-F4568AA8F64A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Data", "..\FootballApp\FootballApp\Football.Data\Football.Data.csproj", "{34889DD0-4048-4547-A009-E6886CC2906D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{563F451F-950C-48DB-A6DC-72BDEC8E6C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{563F451F-950C-48DB-A6DC-72BDEC8E6C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{563F451F-950C-48DB-A6DC-72BDEC8E6C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{563F451F-950C-48DB-A6DC-72BDEC8E6C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53CDFFF-D838-45DA-A1E3-50BA57F4A13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53CDFFF-D838-45DA-A1E3-50BA57F4A13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53CDFFF-D838-45DA-A1E3-50BA57F4A13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53CDFFF-D838-45DA-A1E3-50BA57F4A13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025BBFFE-1EEC-46BD-AF3D-730B3FF158AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025BBFFE-1EEC-46BD-AF3D-730B3FF158AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025BBFFE-1EEC-46BD-AF3D-730B3FF158AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025BBFFE-1EEC-46BD-AF3D-730B3FF158AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B79A1F-DA0F-43A2-AAD1-F4568AA8F64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B79A1F-DA0F-43A2-AAD1-F4568AA8F64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B79A1F-DA0F-43A2-AAD1-F4568AA8F64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B79A1F-DA0F-43A2-AAD1-F4568AA8F64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34889DD0-4048-4547-A009-E6886CC2906D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34889DD0-4048-4547-A009-E6886CC2906D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34889DD0-4048-4547-A009-E6886CC2906D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34889DD0-4048-4547-A009-E6886CC2906D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+C:\projects\FootballApp\FootballApp\Football.Data\bin\Debug\netcoreapp3.1\Football.Model.dll
+C:\projects\FootballApp\FootballApp\Football.Data\obj\Debug\netcoreapp3.1\Football.Data.csprojAssemblyReference.cache
+C:\projects\FootballApp\FootballApp\Football.Data\obj\Debug\netcoreapp3.1\Football.Data.AssemblyInfoInputs.cache
+C:\projects\FootballApp\FootballApp\Football.Data\obj\Debug\netcoreapp3.1\Football.Data.AssemblyInfo.cs
+C:\projects\FootballApp\FootballApp\Football.Data\bin\Debug\netcoreapp3.1\Football.Data.deps.json
+C:\projects\FootballApp\FootballApp\Football.Data\bin\Debug\netcoreapp3.1\Football.Data.dll
+C:\projects\FootballApp\FootballApp\Football.Data\bin\Debug\netcoreapp3.1\Football.Data.pdb
+C:\projects\FootballApp\FootballApp\Football.Data\bin\Debug\netcoreapp3.1\Football.Model.pdb
+C:\projects\FootballApp\FootballApp\Football.Data\obj\Debug\netcoreapp3.1\Football.Data.csproj.CoreCompileInputs.cache
+C:\projects\FootballApp\FootballApp\Football.Data\obj\Debug\netcoreapp3.1\Football.Data.csproj.CopyComplete
+C:\projects\FootballApp\FootballApp\Football.Data\obj\Debug\netcoreapp3.1\Football.Data.dll
+C:\projects\FootballApp\FootballApp\Football.Data\obj\Debug\netcoreapp3.1\Football.Data.pdb
